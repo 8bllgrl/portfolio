@@ -1,0 +1,87 @@
+@import '../-ref/variables';
+
+$paddings: 35px;
+
+.left-side-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: $leftbar-width;
+  background-color: $primary-color;
+  z-index: 9998;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .logo {
+    display: inline-block;
+    text-align: left;
+    font-size: 2.5rem;
+    text-decoration: none;
+    margin: 0;
+    padding-left: $paddings;
+    padding-top: $paddings;
+    line-height: 1.2;
+  }
+
+  .logo-description {
+    font-size: 0.9rem;
+    margin: 1;
+    padding: 0 $paddings;
+    line-height: 1;
+  }
+
+  .left-bar-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    padding: $paddings 10px;
+    line-height: 1.6;
+    margin: 0;
+    text-align: left;
+
+    .link-item {
+      margin-left: 35px;
+      text-decoration: none;
+      padding: 10px;
+      font-size: 1.2rem;
+
+      &.active {
+        border-bottom: 3px solid #ff9189;
+      }
+    }
+  }
+
+  .left-bar-footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    padding: $paddings;
+    margin-top: auto;
+    font-size: 1.0rem;
+    flex-direction: column;
+
+    .art-title {
+      font-size: 1.3rem;
+      margin-left: 35px;
+      margin-bottom: 0px;
+    }
+
+    p {
+      margin-left: 35px;
+    }
+  
+    .footer-link-item {
+      margin-left: 35px;
+      text-decoration: none;
+      font-size: 1.2rem;
+
+      &.active {
+        border-bottom: 3px solid #ff9189;
+      }
+    }
+  }
+}

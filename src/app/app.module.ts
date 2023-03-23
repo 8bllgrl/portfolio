@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { AboutpageComponent } from './aboutpage/aboutpage.component';
 import { ContactspageComponent } from './contactspage/contactspage.component';
+import { LeftSidebarComponent } from './left-sidebar/left-sidebar.component';
+import { GallerypageComponent } from './gallerypage/gallerypage.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +15,8 @@ import { ContactspageComponent } from './contactspage/contactspage.component';
     HomepageComponent,
     AboutpageComponent,
     ContactspageComponent,
+    LeftSidebarComponent,
+    GallerypageComponent,
   ],
   imports: [
     BrowserModule,
