@@ -1,0 +1,5 @@
+<mat-grid-list [cols]="columns" gutterSize="1vw" style="width: 100%;">
+  <mat-grid-tile *ngFor="let imageUrl of imageUrls" class="image-tile" style="padding: 0;">
+    <img [src]="imageUrl" alt="" class="image">
+  </mat-grid-tile>  
+</mat-grid-list>

@@ -6,7 +6,7 @@
 
 .page-content {
   padding-left: $leftbar-width; // Same width as the info bar
-  display: flex;
-  justify-content: center; //changes the content adjustment of the whole of the page content.
-  align-items: center;
+  // display: flex;
+  justify-content: left; //changes the content adjustment of the whole of the page content.
+  align-items: left;
 }

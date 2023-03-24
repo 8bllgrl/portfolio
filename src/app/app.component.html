@@ -1,27 +1,4 @@
-<!-- <app-left-sidebar></app-left-sidebar>
-
-<button routerLink="/">Home</button>
-<button routerLink="/about">About</button>
-<button routerLink="/contact">Contact</button>
-
-<router-outlet></router-outlet>
-
-<div class="page-container">
-    <app-left-sidebar></app-left-sidebar>
-    <div class="content">
-        <p> Love </p>
-        <button routerLink="/">Home</button>
-        <button routerLink="/about">About</button>
-        <button routerLink="/contact">Contact</button>
-
-        <router-outlet></router-outlet>
-        content for the rest of the page goes here
-    </div>
-</div> -->
-
-
-
-<div class="page-container">
+<!-- <div class="page-container">
     <app-left-sidebar class="left-sidebar">
 
     </app-left-sidebar>
@@ -30,4 +7,16 @@
             <p>Routing works!</p>
         </router-outlet>
     </div>
-</div>
+</div> -->
+
+<div class="page-container">
+    <app-left-sidebar class="left-sidebar"></app-left-sidebar>
+    <div class="page-content">
+      <!-- TODO: Figure out the routing later. -->
+      <!-- <router-outlet class="page-contents"></router-outlet> -->
+      <div class="gallery">
+        <app-gallery></app-gallery>
+      </div>
+    </div>
+  </div>
+  

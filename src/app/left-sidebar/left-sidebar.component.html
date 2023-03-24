@@ -11,9 +11,9 @@
     </div>
     <div class="left-bar-links">
       <a class="link-item" [routerLink]="['/']" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" [class.active]="activeLink === 'Home'" (click)="setActiveLink('Home')">{{ home }}</a>
-      <a class="link-item" [routerLink]="['/gallery']" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" [class.active]="activeLink === 'Gallery'" (click)="setActiveLink('Gallery')">{{ gallery }}</a>
+      <!-- <a class="link-item" [routerLink]="['/gallery']" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" [class.active]="activeLink === 'Gallery'" (click)="setActiveLink('Gallery')">{{ gallery }}</a> -->
       <a class="link-item" [routerLink]="['/about']" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" [class.active]="activeLink === 'About Me'" (click)="setActiveLink('About Me')">{{ aboutMe }}</a>
-      <a class="link-item" [routerLink]="['/contact']" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" [class.active]="activeLink === 'Contact'" (click)="setActiveLink('Contact')">{{ gallery }}</a>
+      <a class="link-item" [routerLink]="['/contact']" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" [class.active]="activeLink === 'Contact'" (click)="setActiveLink('Contact')">{{ contact }}</a>
     </div>   
     <div class="left-bar-footer">
       <p class="art-title">{{ pieceName }}</p> 
