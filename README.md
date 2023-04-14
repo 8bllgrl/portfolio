@@ -1,5 +1,5 @@
 # Art Portfolio 
-[<img src="artportfolioexample4142023.png" width="500"/>](image.png)
+[<img src="artportfolioexample4142023.png" width="1000"/>](image.png)
 
 
 https://8bllgrl.github.io/portfolio/
